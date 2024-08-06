@@ -1,0 +1,18 @@
+{
+	"Prints here": {
+		"prefix": "lh",
+		"body": [
+			"console.log('${1:here}');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+  "Prints here with value": {
+    "prefix": "lhv",
+    "body": [
+      "console.log('${1:here}', ${2:value});",
+      "$3"
+    ],
+    "description": "Log output to console"
+  },
+}

@@ -1,0 +1,37 @@
+{
+  "publisher": "dsfx3d",
+  "name": "log-here",
+  "displayName": "Console log here!~",
+  "description": "console log snippets for lazy debuggers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dsfx3d/log-here#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsfx3d/log-here"
+  },
+  "bugs": {
+    "url": "https://github.com/dsfx3d/log-here/issues"
+  },
+  "sponsor": {
+    "url": "https://github.com/dsfx3d/sponsor"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
